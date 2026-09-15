@@ -1,0 +1,35 @@
+#include <windows.h>
+#include <iostream>
+#include <string>
+#include <ctime>
+#include <cstdlib>
+#include <algorithm>
+
+int main () {
+    SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
+    srand(time(0));
+
+    std::string firstName;
+    std::string lastName;
+
+    std::cout << "Введите ваше имя: ";
+    std::cin >> firstName;
+
+    std::cout << "Введите вашу фамилию: ";
+    std::cin >> lastName;
+    std::cout << "Ваш пароль ";
+
+       for (int i = lastName.length() - 1; i >= 0; i--) {
+        std::cout << lastName[i];
+        }
+         std::cout << " ";
+         for (int i = firstName.length() - 1; i >= 0; i--) {
+        std::cout << firstName [i];
+    }
+    std::string fullName = lastName + " " + firstName;
+
+    std::cout << std::endl;
+
+    return 0;
+}
