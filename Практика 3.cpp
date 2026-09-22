@@ -14,13 +14,13 @@ int main () {
     std::string lastName;
     int Parol;
 
-    std::cout << "Ââåäèòå âàøå èìÿ: ";
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¢Ã Ã¸Ã¥ Ã¨Ã¬Ã¿: ";
     std::cin >> firstName;
 
-    std::cout << "Ââåäèòå âàøó ôàìèëèþ: ";
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¢Ã Ã¸Ã³ Ã´Ã Ã¬Ã¨Ã«Ã¨Ã¾: ";
     std::cin >> lastName;
 
-    std::cout << "Ââåäèòå ÷èñëî ñèìâîëîâ â ïàðîëå: ";
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã·Ã¨Ã±Ã«Ã® Ã±Ã¨Ã¬Ã¢Ã®Ã«Ã®Ã¢ Ã¢ Ã¯Ã Ã°Ã®Ã«Ã¥: ";
     std::cin >> Parol;
 
     std::string fullName = lastName + " " + firstName;
@@ -34,7 +34,7 @@ int main () {
          finalPassword += fullName[i];
          counter++;
     }
-    std::cout << "Âàø ïàðîëü: " << finalPassword << std::endl;
+    std::cout << "Ã‚Ã Ã¸ Ã¯Ã Ã°Ã®Ã«Ã¼: " << finalPassword << std::endl;
 
     return 0;
 }
