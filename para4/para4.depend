@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1790658660 source:c:\users\cc-ulkb612\downloads\para4\main.cpp
+	<iostream>
+	<windows.h>
+	"func.h"
+
+1790659367 c:\users\cc-ulkb612\downloads\para4\func.h
+
