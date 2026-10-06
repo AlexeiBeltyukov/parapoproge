@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1791261711 source:c:\users\cc-ulkb612\downloads\praktika5\main.cpp
+	<windows.h>
+	<iostream>
+	<cstring>
+	<ctime>
+	<cstdlib>
+
